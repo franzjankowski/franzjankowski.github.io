@@ -1,3 +1,23 @@
+
+## Übersicht eigner GitHub-Veröffentlichungen
+
+**- Transparenzangaben**
+🔗 Link: https://franzjankowski.github.io/ki-transparenz
+
+**- Kleines KI-Glossar**
+  🔗 Link: https://franzjankowski.github.io/ki-glossar
+
+**- ChatBots-Liste mit Recherche-Portalen**
+🔗 Link: https://franzjankowski.github.io/chatbot-liste
+
+<p> <br><br><br> </p> 
+
+---
+#### Ab hier Spielwiese zum Vertrautwerden mit MD-Formatierungen
+<p> <br><br><br> </p> 
+
+---
+
 # KI-Workshop Ressourcen von Franz Jankowski
 
 > **Zentrale Anlaufstelle für Informationen zu KI-Workshops, Transparenz und verwendeten Begriffen**
