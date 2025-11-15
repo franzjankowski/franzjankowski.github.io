@@ -180,3 +180,51 @@ Zunehmend international relevante Plattformen:
 
 #### Nutzungsbedingungen
 
+✓ Persönlicher, nicht-kommerzieller Gebrauch: ERLAUBT
+✗ Vervielfältigung ohne Genehmigung: UNTERSAGT
+✗ Weitergabe ohne Genehmigung: UNTERSAGT
+✗ Kommerzielle Nutzung ohne Genehmigung: UNTERSAGT
+
+
+**Ausnahme:** Gesetzliche Schranken wie Zitatrecht bleiben unberührt.
+
+### Transparenzhinweis
+
+Alle Unterlagen wurden unter Nutzung verschiedener KI-Werkzeuge erstellt. Der Autor übernimmt die **volle Verantwortung** für die Inhalte nach gründlicher Prüfung und Kuratierung.
+
+⚠️ **Keine Gewähr** für Vollständigkeit, Richtigkeit und Aktualität.
+
+---
+
+## 📞 Kontakt und Nutzung
+
+### Für Teilnehmende
+
+Diese Ressourcen stehen Workshop-Teilnehmenden zur Vertiefung und Nachbereitung zur Verfügung. Die Dokumente werden kontinuierlich aktualisiert.
+
+### Versionierung
+
+Die Dokumente verwenden semantische Versionierung (z.B. v0.7d, v0.8) zur Nachverfolgung von Änderungen.
+
+---
+
+## 🔄 Letzte Aktualisierung
+
+*Stand: November 2025*
+
+---
+
+### Schnellzugriff
+
+| Ressource | Kurzbeschreibung | URL |
+|-----------|------------------|-----|
+| 🔍 Transparenz | KI-Tool-Offenlegung | [ki-transparenz](https://franzjankowski.github.io/ki-transparenz) |
+| 📖 Glossar | Begriffserklärungen | [ki-glossar](https://franzjankowski.github.io/ki-glossar) |
+| 🤖 ChatBot-Liste | Tool-Übersicht | [chatbot-liste](https://franzjankowski.github.io/chatbot-liste) |
+
+---
+
+**Erstellt mit:** Markdown, strukturiert für optimale Lesbarkeit und Navigation
+
+*Tags: #KI #Workshops #ChatBots #Transparenz #Glossar #AI #Bildung*
+
