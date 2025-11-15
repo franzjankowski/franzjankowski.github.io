@@ -1,155 +1,449 @@
-<!DOCTYPE html>
-<html lang="de">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Kleines KI-Glossar</title>
-  <meta name="author" content="Franz Jankowski">
-  <meta name="copyright" content="© Franz Jankowski 2025. Alle Rechte vorbehalten.">
-  <meta name="description" content="Glossar KI-Begriffe, Ergänzungen und Trainingsverfahren.">
-  <style>
-    body { font-family: Arial, sans-serif; margin: 2em; background: #fbfbfb;}
-    h1, h2, h3, h4 { color: #2c3e50; }
-    h1 { border-bottom: 2px solid #ccc; padding-bottom:.3em;}
-    .toc { background: #eee; padding:1em; margin-bottom:2em; border-radius:8px; }
-    dt { font-weight: bold; margin-top:1em;}
-    dd { margin-bottom:1em; }
-    .note { font-style: italic; color: #34495e;}
-    .section { margin-top:2em;}
-    .small { font-size:.95em; color:#888; }
-    a { color:#006699; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-  </style>
+<meta charset="UTF-8"> 
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:"Aptos Display";}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+h1
+	{mso-style-link:"Überschrift 1 Zchn";
+	margin-top:18.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:20.0pt;
+	font-family:"Aptos Display",sans-serif;
+	color:#0F4761;
+	font-weight:normal;}
+h2
+	{mso-style-link:"Überschrift 2 Zchn";
+	margin-top:8.0pt;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Aptos Display",sans-serif;
+	color:#0F4761;
+	font-weight:normal;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:35.4pt;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Titel Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-link:"Titel Zchn";
+	margin:0cm;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-link:"Titel Zchn";
+	margin:0cm;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-link:"Titel Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	font-size:28.0pt;
+	font-family:"Aptos Display",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"Untertitel Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:"Aptos",sans-serif;
+	color:#595959;
+	letter-spacing:.75pt;}
+a:link, span.MsoHyperlink
+	{color:#467886;
+	text-decoration:underline;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Aptos Display",sans-serif;
+	color:#0F4761;}
+span.berschrift1Zchn
+	{mso-style-name:"Überschrift 1 Zchn";
+	mso-style-link:"Überschrift 1";
+	font-family:"Aptos Display",sans-serif;
+	color:#0F4761;}
+span.berschrift2Zchn
+	{mso-style-name:"Überschrift 2 Zchn";
+	mso-style-link:"Überschrift 2";
+	font-family:"Aptos Display",sans-serif;
+	color:#0F4761;}
+span.TitelZchn
+	{mso-style-name:"Titel Zchn";
+	mso-style-link:Titel;
+	font-family:"Aptos Display",sans-serif;
+	letter-spacing:-.5pt;}
+span.UntertitelZchn
+	{mso-style-name:"Untertitel Zchn";
+	mso-style-link:Untertitel;
+	font-family:"Times New Roman",serif;
+	color:#595959;
+	letter-spacing:.75pt;}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
 </head>
-<body>
-  <h1>Kleines KI-Glossar</h1>
-  <div class="small">
-    <span>In Unterlagen und Veranstaltungen verwendete Begriffe (v0.7d)</span>
-  </div>
 
-  <div class="toc">
-    <strong>Inhalt</strong>
-    <ul>
-      <li><a href="#rechtshinweis">Urheberrecht & Verwendungshinweis, KI-Transparenz</a></li>
-      <li><a href="#glossar">Glossar</a></li>
-      <li><a href="#ergaenzungen">Ergänzungen</a></li>
-      <li><a href="#feinabstimmung">Verfahren zur Feinabstimmung</a></li>
-      <li><a href="#training">Verfahren zum Training von Sprachmodellen</a></li>
-    </ul>
-  </div>
+<body lang=DE link="#467886" vlink="#96607D" style='word-wrap:break-word'>
 
-  <section id="rechtshinweis" class="section">
-    <h2>Urheberrecht & Verwendungshinweis, KI-Transparenz</h2>
-    <strong>© Franz Jankowski 2025. Alle Rechte vorbehalten.</strong><br>
-    Diese Unterlagen sind ausschließlich für den persönlichen, nicht-kommerziellen Gebrauch bestimmt. 
-    Eine Vervielfältigung, Weitergabe oder kommerzielle Nutzung der gesamten oder von Teilen des Materials
-    ist ohne schriftliche Genehmigung untersagt. Gesetzliche Schranken (Zitatrecht etc.) bleiben davon natürlich unberührt. 
-    Zur <strong>KI-Transparenz</strong> siehe 
-    <a href="https://franzjankowski.github.io/ki-transparenz">diese Seite</a>.
-  </section>
+<div class=WordSection1>
 
-  <section id="glossar" class="section">
-    <h2>Glossar</h2>
-    <dl>
-      <dt>Agenten / agentisch</dt>
-      <dd>Selbstständig handelnde KI-Systeme, die Aufgaben planen, ausführen und auch mit externen Diensten oder Geräten (z.B. Telefon) interagieren können, sofern Schnittstellen vorhanden sind.</dd>
+<div class=MsoNormal align=center style='text-align:center'><b>
 
-      <dt>ChatBot</dt>
-      <dd>Kofferwort (Wortverschmelzung) aus englisch „Chat“ (plaudern) und „Robot“ (Roboter). Textbasiertes Dialogsystem, das mithilfe von LLMs menschenähnliche Gespräche führen und komplexe Anfragen beantworten kann.</dd>
+<hr size=1 width="100%" align=center>
 
-      <dt>Cloud</dt>
-      <dd>Onlinedienste mit Programmen, Speicherplatz und Rechenleistung über das Internet, anstatt lokal auf dem eigenen Gerät.</dd>
+</b></div>
 
-      <dt>Cognitive Offloading</dt>
-      <dd>Auslagern geistiger Aufgaben an Geräte, andere oder in die Zukunft – hilfreich zur Entlastung, riskant bei Gewöhnung, weil Analysefähigkeit verkümmern kann.</dd>
+<p class=MsoTitle>Kleines KI-Glossar </p>
 
-      <dt>Emergenz</dt>
-      <dd><span class="note">Unerwartete neue Fähigkeiten großer Modelle.</span> Ab einer bestimmten Komplexität zeigen KI-Modelle plötzlich Verhaltensweisen oder Leistungen, die aus einzelnen Bausteinen oder Trainingsdaten allein nicht vorhersehbar sind.</dd>
+<p class=MsoSubtitle>In Unterlagen und Veranstaltungen verwendete Begriffe (v0.8)</p>
 
-      <dt>Filterblase</dt>
-      <dd>Eingeengte Info-Welt – entsteht durch automatische Empfehlungsfunktionen oder durch bewusste Auswahl immer gleicher Kontakte und Medien. Andere Perspektiven bleiben außen vor.</dd>
+<p class=MsoTocHeading>Inhalt</p>
 
-      <dt>Human in the Loop</dt>
-      <dd>Ansatz, bei dem der Mensch bewusst Teil eines KI-Systems bleibt – um Ergebnisse zu prüfen, Entscheidungen zu bestätigen und Verantwortung zu behalten.</dd>
+<p class=MsoToc1><a href="#_Toc213972646">Urheberrecht &amp; Verwendungshinweis<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>1</span></a></p>
 
-      <dt>How to</dt>
-      <dd>Wörtlich „Wie man ...“; Anleitung oder Schritt-für-Schritt-Beschreibung.</dd>
+<p class=MsoToc2 style='margin-left:0cm'><a href="#_Toc213972647">Glossar<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>1</span></a></p>
 
-      <dt>Link</dt>
-      <dd><strong>hier:</strong> Verknüpfung zu Internetadressen.<br><strong>allgemein:</strong> Verbindung zwischen zwei Elementen.</dd>
+<p class=MsoToc1><a href="#_Toc213972648">Ergänzungen<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>1</span></a></p>
 
-      <dt>LLM</dt>
-      <dd>Large Language Model, Große Sprachmodelle; KI, mit der man in menschlicher Sprache kommunizieren kann.</dd>
+<p class=MsoToc2><a href="#_Toc213972649">Verfahren zur Feinabstimmung und
+Anpassung von Sprachmodellen<span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>1</span></a></p>
 
-      <dt>Lokale KI</dt>
-      <dd>Läuft vollständig auf dem eigenen Rechner, Smartphone, unabhängig vom Internet. Manche Tools für lokale KIs erlauben z.B. die Einbindung von Suchmaschinen, sofern das lokale KI-Modell „Tool Use“ beherrscht und Suchen selbständig anfordern sowie die Ergebnisse entgegennehmen kann.</dd>
+<p class=MsoToc2><a href="#_Toc213972650">Verfahren zum Training von
+Sprachmodellen<span style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>1</span></a></p>
 
-      <dt>Persona</dt>
-      <dd><strong>Allgemein:</strong> Fiktive Figur zur Darstellung einer bestimmten Sichtweise.<br><strong>Hier:</strong> vordefinierte Rolle in einer KI, die Tonfall, Stil oder Fachperspektive bestimmt.</dd>
+<p class=MsoNormal>&nbsp;</p>
 
-      <dt>Pitch</dt>
-      <dd>Kurze, überzeugende Zusammenfassung einer Idee, meist mündlich präsentiert (eigentlich „Tonhöhe“).</dd>
+<div class=MsoNormal align=center style='text-align:center'><b>
 
-      <dt>Prompt</dt>
-      <dd>Eingabeaufforderung; Text oder Frage, die man einer Künstlichen Intelligenz (KI) gibt, um eine Antwort oder Aktion auszulösen.</dd>
+<hr size=1 width="100%" align=center>
 
-      <dt>QR-Code</dt>
-      <dd>Quick Response Code, lesbar für Smartphones, enthält z.B. Internetadressen.</dd>
+</b></div>
 
-      <dt>RAG</dt>
-      <dd>Retrieval-Augmented Generation; KI bezieht zusätzlich externe Infos; ursprünglich für „tokenisierte“ Bibliotheken (heute auch als Baustein agentischer Systeme verwendet). Ein Service des Portals (z.B. Mistral, Le Chat) durchsucht zuvor aufbereitete Texte und wählt passende Abschnitte aus. Diese werden über das Kontextfenster an das eigentliche KI-Modell übergeben.</dd>
+<h1><a name="_Toc213972646">Urheberrecht &amp; Verwendungshinweis</a>,
+KI-Transparenz</h1>
 
-      <dt>Sampling-Parameter</dt>
-      <dd>Steuern die Kreativität und Präzision von KI-Antworten. Sie legen fest, wie das Modell zwischen möglichen nächsten Wörtern wählt (z. B. über Temperature, Top-K, Top-P). Höhere Werte führen zu freieren, kreativ-variableren Antworten, niedrigere zu berechenbareren und konsistenteren Ergebnissen.</dd>
+<p class=MsoNormal><b>© Franz Jankowski 2025. Alle Rechte vorbehalten.</b></p>
 
-      <dt>Sokratischer Dialog</dt>
-      <dd>Dialogische Methode, die mit klug gesetzten Denkanstößen dazu anregt, eigene Antworten und Erkenntnisse zu entwickeln.</dd>
+<p class=MsoNormal>Diese Unterlagen sind ausschließlich für den persönlichen,
+nicht-kommerziellen Gebrauch bestimmt. Eine Vervielfältigung, Weitergabe oder
+kommerzielle Nutzung der gesamten oder von Teilen des Materials ist ohne
+schriftliche Genehmigung untersagt. Gesetzliche Schranken (Zitatrecht etc.)
+bleiben davon natürlich unberührt. Zur KI-Transparenz siehe <a
+href="https://franzjankowski.github.io/ki-transparenz">https://franzjankowski.github.io/ki-transparenz</a>
+</p>
 
-      <dt>Speech-to-Text (S2T)</dt>
-      <dd>Automatische Umwandlung von gesprochener Sprache in Text (z. B. für Diktierfunktionen). Das „2“ (engl. „two“) wird wie „to“ („zu“) ausgesprochen und ersetzt es im Kurzwort. <br>
-        <span class="small">Weitere verwandte Technologien: <strong>Text-to-Speech (TTS)</strong>, <strong>Text-to-Video (T2V)</strong>.</span><br>
-        <strong>Brain-to-Text (B2T):</strong> Forschungsfeld zur direkten Umwandlung von Gehirnaktivität in Text, mittels invasiver (Gehirn-Computer-Schnittstelle, BCI) oder nicht-invasiver Methoden (z. B. EEG, MEG). Stand 2025: Invasive Systeme erreichen bis zu 97,5 % Genauigkeit (Jayalath et al., 2025, arXiv:2505.13446) bei ausgewählten, intensiv trainierten Personen; nicht-invasive Verfahren bis zu 68 % (beste: 81 %).</dd>
+<div class=MsoNormal align=center style='text-align:center'><b>
 
-      <dt>Thinking Mode</dt>
-      <dd>Arbeitsmodus moderner KI-Systeme, bei dem die Modelle ausdrücklich zusätzliche Zeit zum „Nachdenken“ verwenden. Das Ergebnis sind oft ausführlichere, reflektierte Antworten mit größerem Kontextbezug oder kreativeren Lösungen. Diese Reflektionen sind häufig auch nachlesbar und gegebenenfalls zusammengefasst dargestellt.</dd>
-    </dl>
-  </section>
+<hr size=1 width="100%" align=center>
 
-  <section id="ergaenzungen" class="section">
-    <h2>Ergänzungen</h2>
-    <h3 id="feinabstimmung">Verfahren zur Feinabstimmung und Anpassung von Sprachmodellen</h3>
-    <dl>
-      <dt>RLHF</dt>
-      <dd>Reinforcement Learning from Human Feedback; Verstärkendes Lernen durch menschliche Bewertungen von Modellantworten; dient der Anpassung an gewünschte Werte, Stil und Sicherheit.</dd>
+</b></div>
 
-      <dt>RLAIF</dt>
-      <dd>Reinforcement Learning from AI Feedback; Gleiche Methode, jedoch mit Feedback durch ein anderes KI-Modell statt durch Menschen – schneller und kostengünstiger.</dd>
+<h2>&nbsp;</h2>
 
-      <dt>LoRA</dt>
-      <dd>Low-Rank Adaptation; Methode zum Nachtraining großer Sprachmodelle, bei der kleine Zusatzgewichte („Adapter“) gelernt und beim Einsatz zum Basismodell addiert werden – das Original bleibt unverändert.</dd>
+<h1><a name="_Toc213972647">Glossar</a></h1>
 
-      <dt>QLoRA (Quantized LoRA)</dt>
-      <dd>Speicher- und kostensparende Variante, die mit quantisierten (z. B. 4-Bit) Modellgewichten arbeitet und Nachtraining auf handelsüblichen GPUs ermöglicht.</dd>
-    </dl>
-  </section>
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm'><a name=Agent><b>Agent</b></a><b> / agentisch </b></p>
 
-  <section id="training" class="section">
-    <h3>Verfahren zum Training von Sprachmodellen</h3>
-    <ol>
-      <li>
-        <strong>Pre-Training → Basismodell:</strong> Lernt auf sehr vielen Texten das nächste Wort vorherzusagen. <br>
-        <span class="note">Sprachgefühl & Weltbezüge entstehen in den Gewichten.</span><br>
-        <span class="small">(Pro: Transformer, Milliarden Parameter, Datenbereinigung & Deduplizierung).</span>
-      </li>
-      <li>
-        <strong>Fine-Tuning & Alignment → Standard-Version:</strong> Mit Beispielen & Bewertungen wird das Verhalten <strong>hilfreich, ehrlich, harmlos</strong>. <br>
-        <span class="small">System-Prompt/Regeln setzen Leitplanken.<br>
-        (Pro: SFT, RLHF/DPO, Evals/Red-Teaming; Leitplanken = Laufzeit, keine Gewichtsänderung).</span>
-      </li>
-      <li>
-        <strong>In-Context-Nutzung → Persona im Gespräch:</strong> Passt situativ Rolle, Stil, Aufgabe an – ohne Nachtrainieren.<br>
-        <span class="small">(Pro: Kontextfenster, Few-Shot, optional RAG/Tools für Nachschlagen, Rechnen, Funktionen).</span>
-      </li>
-    </ol>
-  </section>
+<p class=MsoNormal style='margin-bottom:0cm'>(in der KI): Selbstständig
+handelnde KI-Systeme, die Aufgaben planen, ausführen und auch mit externen
+Diensten oder Geräten (z.B. Telefon) interagieren können, sofern Schnittstellen
+vorhanden sind.</p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm'><a name=ChatBot><b>ChatBot</b></a><b> / Chatbot</b></p>
+
+<p class=MsoNormal>Kofferwort (Wortverschmelzung) aus englisch „Chat“
+(plaudern) und „Robot“ (Roboter). Textbasiertes Dialogsystem, das mithilfe von <b>®
+</b>LLMs menschenähnliche Gespräche führen und komplexe Anfragen beantworten
+kann.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name=Cloud><b>Cloud</b></a></p>
+
+<p class=MsoNormal>Onlinedienste mit Programmen, Speicherplatz und
+Rechenleistung über das Internet, anstatt <b>lokal</b> auf dem eigenen Gerät.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name="Cognitiv_Offloading"><b>Cognitive
+Offloading</b></a></p>
+
+<p class=MsoNormal>Auslagern geistiger Aufgaben an Geräte, andere oder in die
+Zukunft – hilfreich zur Entlastung, riskant bei Gewöhnung, weil
+Analysefähigkeit verkümmern kann.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name=Emergenz><b>Emergenz</b></a><br>
+<i>hier: Unerwartete neue Fähigkeiten großer Modelle.</i><br>
+Ab einer bestimmten Komplexität zeigen KI-Modelle plötzlich Verhaltensweisen
+oder Leistungen, die aus einzelnen Bausteinen oder Trainingsdaten allein nicht
+vorhersehbar sind.</p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm'><a name=Filterblase><b>Filterblase</b></a></p>
+
+<p class=MsoNormal>Eingeengte Info-Welt –<span style='font-family:"Arial",sans-serif'>&#8239;</span>entsteht
+durch automatische Empfehlungsfunktionen oder durch bewusste Auswahl immer
+gleicher Kontakte und Medien. Andere Perspektiven bleiben außen vor.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name="Human_in_the_Loop"><b>Human
+in the Loop</b></a></p>
+
+<p class=MsoNormal>Ansatz, bei dem der Mensch bewusst Teil eines KI-Systems
+bleibt – um Ergebnisse zu prüfen, Entscheidungen zu bestätigen und
+Verantwortung zu behalten.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name="How_to"><b>How to</b></a></p>
+
+<p class=MsoNormal>Wörtlich „Wie man …“; Anleitung oder
+Schritt-für-Schritt-Beschreibung.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name=Link><b>Link</b></a></p>
+
+<p class=MsoNormal><i>hier</i>: Verknüpfung zu Internetadressen; <i>allgemein</i>:
+Verbindung zwischen zwei Elementen.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name=LLM><b>LLM</b></a></p>
+
+<p class=MsoNormal>Large Language Model, Große Sprachmodelle; KI, mit der man
+in menschlicher Sprache kommunizieren kann.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name="Lokale_KI"><b>Lokale KI</b></a></p>
+
+<p class=MsoNormal>Läuft vollständig auf dem eigenen Rechner, Smartphone,
+unabhängig vom Internet. Manche Tools für lokale KIs erlauben z.B. die
+Einbindung von Suchmaschinen, sofern das lokale KI-Modell „Tool Use“ beherrscht
+und Suchen selbständig anfordern und die Ergebnisse entgegennehmen kann.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name=Persona><b>Persona</b></a></p>
+
+<p class=MsoNormal><b>Allgemein:</b> Fiktive Figur zur Darstellung einer
+bestimmten Sichtweise;<b> hier: </b>vordefinierte Rolle in einer KI, die
+Tonfall, Stil oder Fachperspektive bestimmt.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name=Pitch><b>Pitch</b></a></p>
+
+<p class=MsoNormal>Kurze, überzeugende Zusammenfassung einer Idee, meist
+mündlich präsentiert (eigentlich „Tonhöhe“).</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name=Prompt><b>Prompt</b></a></p>
+
+<p class=MsoNormal>Eingabeaufforderung; Text oder Frage, die man einer
+Künstlichen Intelligenz (KI) gibt, um eine Antwort oder Aktion auszulösen.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name="QR_Code"><b>QR-Code</b></a></p>
+
+<p class=MsoNormal>Quick Response Code, lesbar für Smartphones, enthält z.B.
+Internetadressen.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name=RAG><b>RAG</b></a></p>
+
+<p class=MsoNormal>Retrieval-Augmented Generation; KI bezieht zusätzlich
+externe Infos; ursprünglich für „tokenisierte“ Bibliotheken (heute auch als
+Baustein agentischer Systeme verwendet). Ein Service des Portals (z. B.
+Mistral, Le Chat) durchsucht zuvor aufbereitete Texte und wählt passende
+Abschnitte aus. Diese werden mit über das Kontextfenster an das eigentliche
+KI-Modell übergeben.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name="Sampling_Parameter"><b>Sampling-Parameter</b></a></p>
+
+<p class=MsoNormal>Steuern die Kreativität und Präzision von KI-Antworten.<br>
+Sie legen fest, wie das Modell zwischen möglichen nächsten Wörtern wählt (z. B.
+über Temperature, Top-K, Top-P). Höhere Werte führen zu freieren,
+kreativ-variableren Antworten, niedrigere zu berechenbareren und konsistenteren
+Ergebnissen.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name="Sokratischer_Dialog"><b>Sokratischer
+Dialog</b></a></p>
+
+<p class=MsoNormal> Dialogische Methode, die mit klug gesetzten Denkanstößen
+dazu anregt, eigene Antworten und Erkenntnisse zu entwickeln.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name="Speech_to_Text"><b>Speech-to-Text
+</b></a><b>(<a name=S2T>S2T</a>)</b></p>
+
+<p class=MsoNormal>Automatische Umwandlung von gesprochener Sprache in Text (z.
+B. für Diktierfunktionen). Das „2“ (engl. „two“) wird wie „to“ („zu“)
+ausgesprochen und ersetzt es im Kurzwort.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt'><span
+style='font-family:Symbol'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>weitere verwandte Technologien: <a name="Text_to_Speech"><b>Text-to-Speech</b>
+</a>(TTS), <b>Text-to-Video</b> (teils auch als Text2Video oder T2V abgekürzt).
+Interessante Ergänzung:</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt'><a
+name="Brain_to_Text"><span style='font-family:Symbol'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='background:yellow'>Brain-to-Text</span></b></a><b>
+</b>(B2T):<b>&nbsp;</b>Forschungsfeld zur direkten Umwandlung von
+Gehirnaktivität in Text, mittels invasiver (Gehirn-Computer-Schnittstelle, BCI)
+oder nicht-invasiver Methoden (z. B. EEG, MEG). Stand 2025: Invasive Systeme
+erreichen bis zu 97,5<span style='font-family:"Arial",sans-serif'>&#8239;</span>%
+Genauigkeit (<span lang=DA>Jayalath et al., 2025, arXiv:2505.13446)</span> bei
+ausgewählten, intensiv trainierten Personen; nicht-invasive Verfahren bis zu 68<span
+style='font-family:"Arial",sans-serif'>&#8239;</span>% (beste: 81<span
+style='font-family:"Arial",sans-serif'>&#8239;</span>%).</p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm'><a name="Thinking_Mode"><b>Thinking Mode</b></a></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Arbeitsmodus moderner KI-Systeme,
+bei dem die Modelle ausdrücklich zusätzliche Zeit zum „Nachdenken“ verwenden.
+Das Ergebnis sind oft ausführlichere, reflektierte Antworten mit größerem
+Kontextbezug oder kreativeren Lösungen. Diese „Reflektionen“ sind häufig auch
+nachlesbar und gegebenenfalls zusammengefasst dargestellt.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name=Token><b>Token</b></a></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>hier: die kleinste, handhabbare
+bedeutungstragene Dateneinheit, in die ein Text oder andere Daten vor der
+Verarbeitung durch ein KI-Modell zerlegt werden. Im Bereich der Sprachmodelle
+kann ein Token ein ganzes Wort, ein Wortteil oder sogar ein einzelnes Zeichen
+wie ein Satzzeichen sein. Dieser Vorgang, der Tokenisierung genannt wird,
+ermöglicht es KI-Modellen, komplexe, unstrukturierte Daten in strukturierte
+Einheiten zu zerlegen, die das Modell verstehen und analysieren kann.</p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<h1><a name="_Toc213972648">Ergänzungen</a></h1>
+
+<h2><a name="_Toc213972649">Verfahren zur Feinabstimmung und Anpassung von
+Sprachmodellen</a></h2>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm'><a name=RLHF><b>RLHF</b></a></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'>Reinforcement Learning from Human
+Feedback,<b> </b>Verstärkendes Lernen durch menschliche Bewertungen von
+Modellantworten; dient der Anpassung an gewünschte Werte, Stil und Sicherheit.</p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:0cm'><a name=RLAIF><b>RLAIF</b></a></p>
+
+<p class=MsoNormal>Reinforcement Learning from AI Feedback; Gleiche Methode,
+jedoch mit Feedback durch ein anderes KI-Modell statt durch Menschen –
+schneller und kostengünstiger.</p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><a name=LoRA><b>LoRA</b></a></p>
+
+<p class=MsoNormal>Low-Rank Adaptation; Methode zum Nachtraining großer
+Sprachmodelle, bei der kleine Zusatzgewichte („Adapter“) gelernt und beim
+Einsatz zum Basismodell addiert werden – das Original bleibt unverändert.</p>
+
+<p class=MsoNormal><a name=QLoRA><b>QLoRA</b></a><b> (Quantized LoRA)</b><br>
+Speicher- und kostensparende Variante, die mit quantisierten (z. B. 4-Bit)
+Modellgewichten arbeitet und Nachtraining auf handelsüblichen GPUs ermöglicht.</p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<h2><a name="_Toc213972650">Verfahren zum Training von Sprachmodellen</a></h2>
+
+<p class=MsoNormal><b>1) <a name="Pre_Training">Pre-Training </a>&#8594;
+Basismodell</b><br>
+Lernt auf sehr vielen Texten <b>das nächste Wort</b> vorherzusagen &#8594; <b>Sprachgefühl
+&amp; Weltbezüge</b> entstehen in den Gewichten.<br>
+<i>Pro:</i> Transformer, Milliarden <b>Parameter</b>, Datenbereinigung &amp;
+Deduplizierung.</p>
+
+<p class=MsoNormal><b>2) <a name="Fine_Tuning">Fine-Tuning </a>&amp; Alignment
+&#8594; Standard-Version</b><br>
+Mit Beispielen &amp; Bewertungen wird das Verhalten <b>hilfreich, ehrlich,
+harmlos</b>. <b>System-Prompt/Regeln</b> setzen Leitplanken.<br>
+<i>Pro:</i> <b>SFT</b>, <b>RLHF/DPO</b>, Evals/Red-Teaming; Leitplanken = <b>Laufzeit</b>,
+keine Gewichtsänderung.</p>
+
+<p class=MsoNormal><b>3) <a name="In_Context">In-Context</a>-Nutzung &#8594;
+Persona im Gespräch</b><br>
+Passt <b>situativ</b> Rolle, Stil, Aufgabe an – <b>ohne</b> Nachtrainieren.<br>
+<i>Pro:</i> Kontextfenster, <b>Few-Shot</b>, optional <b>RAG/Tools</b>
+(Nachschlagen, Rechnen, Funktionen).</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
 </body>
+
 </html>
