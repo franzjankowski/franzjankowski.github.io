@@ -2,13 +2,13 @@
 ## Übersicht eigner GitHub-Veröffentlichungen
 
 **- Transparenzangaben** <BR>
-🔗 Link: https://franzjankowski.github.io/ki-transparenz.html
+🔗 Link: [Link: Transparenzangaben](https://franzjankowski.github.io/ki-transparenz)
 
 **- Kleines KI-Glossar** <BR>
-  🔗 Link: https://franzjankowski.github.io/ki-glossar.html
+🔗 Link: [Link: Kleines KI-Glossar](https://franzjankowski.github.io/ki-glossar)
 
 **- ChatBots-Liste mit Recherche-Portalen** <BR>
-🔗 Link: https://franzjankowski.github.io/chatbot-liste.html
+🔗 Link: [Link: ChatBots-Liste](https://franzjankowski.github.io/chatbot-liste)
 
 <p> <br><br><br> </p> 
 
