@@ -2,7 +2,7 @@
 ## Übersicht eigner GitHub-Veröffentlichungen
 
 **- Transparenzangaben** <BR>
-🔗 Link: [Link: Transparenzangaben](https://franzjankowski.github.io/ki-transparenz)
+🔗 Link: [https://franzjankowski.github.io/ki-transparenz](https://franzjankowski.github.io/ki-transparenz)
 
 **- Kleines KI-Glossar** <BR>
 🔗 Link: [Link: Kleines KI-Glossar](https://franzjankowski.github.io/ki-glossar)
