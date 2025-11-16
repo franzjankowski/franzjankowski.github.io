@@ -5,7 +5,7 @@
 🔗 Link: https://franzjankowski.github.io/ki-transparenz.html
 
 **- Kleines KI-Glossar** <BR>
-  🔗 Link: https://franzjankowski.github.io/ki-glossar.hzml
+  🔗 Link: https://franzjankowski.github.io/ki-glossar.html
 
 **- ChatBots-Liste mit Recherche-Portalen** <BR>
 🔗 Link: https://franzjankowski.github.io/chatbot-liste.html
