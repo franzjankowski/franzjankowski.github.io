@@ -2,13 +2,13 @@
 ## Übersicht eigner GitHub-Veröffentlichungen
 
 **- Transparenzangaben** <BR>
-🔗 Link: https://franzjankowski.github.io/ki-transparenz
+🔗 Link: https://franzjankowski.github.io/ki-transparenz.html
 
 **- Kleines KI-Glossar** <BR>
-  🔗 Link: https://franzjankowski.github.io/ki-glossar
+  🔗 Link: https://franzjankowski.github.io/ki-glossar.hzml
 
 **- ChatBots-Liste mit Recherche-Portalen** <BR>
-🔗 Link: https://franzjankowski.github.io/chatbot-liste
+🔗 Link: https://franzjankowski.github.io/chatbot-liste.html
 
 <p> <br><br><br> </p> 
 
@@ -56,7 +56,7 @@ Die hier verlinkten Dokumente dienen der **Transparenz** und **Nachvollziehbarke
 
 **Zweck:** Offenlegung der KI-gestützten Erstellung von Workshop-Materialien
 
-🔗 **Link:** [https://franzjankowski.github.io/ki-transparenz](https://franzjankowski.github.io/ki-transparenz)
+🔗 **Link:** [https://franzjankowski.github.io/ki-transparenz.html](https://franzjankowski.github.io/ki-transparenz.html)
 
 #### Was finden Sie dort?
 
