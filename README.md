@@ -1,21 +1,23 @@
 
 # KI-Workshop Ressourcen von Franz Jankowski
 
+ACHTUNG - Daten des KI-Themas in die GitHub-Organisation fjki-info verschoben
+
 > **Zentrale Anlaufstelle für Informationen zu KI-Workshops, Transparenz und verwendete Begriffe**
 
 ## In Veranstaltungen und Handouts verwendete Links
 
 **- ChatBots-Liste mit Recherche-Portalen** <BR>
-🔗 Link: [https://franzjankowski.github.io/chatbot-liste](https://franzjankowski.github.io/chatbot-liste)
+🔗 Link: [https://fjki-info.github.io/tools](https://fjki-info.github.io/tools)
 
 **- Kleines KI-Glossar** <BR>
-🔗 Link: [https://franzjankowski.github.io/ki-glossar](https://franzjankowski.github.io/ki-glossar)
+🔗 Link: [https://fjki-info.github.io/glossar](https://fjki-info.github.io/glossar)
 
 **- Ideen-Buffet - Was kann KI für mich tun?** <BR>
-🔗 Link: [https://franzjankowski.github.io/ki-ideen-buffet](https://franzjankowski.github.io/ki-ideen-buffet)
+🔗 Link: [https://fjki-info.github.io/ideen-buffet](https://fjki-info.github.io/ideen-buffet)
 
 **- Transparenzangaben** <BR>
-🔗 Link: [https://franzjankowski.github.io/ki-transparenz](https://franzjankowski.github.io/ki-transparenz)
+🔗 Link: [https://fjki-info.github.io/transparenz](https://fjki-info.github.io/transparenz)
 
 <p> <br><br><br> </p> 
 <p> <br><br><br> </p> 
