@@ -5,14 +5,17 @@
 
 ## In Veranstaltungen und Handouts verwendete Links
 
-**- Transparenzangaben** <BR>
-🔗 Link: [https://franzjankowski.github.io/ki-transparenz](https://franzjankowski.github.io/ki-transparenz)
+**- ChatBots-Liste mit Recherche-Portalen** <BR>
+🔗 Link: [https://franzjankowski.github.io/chatbot-liste](https://franzjankowski.github.io/chatbot-liste)
 
 **- Kleines KI-Glossar** <BR>
 🔗 Link: [https://franzjankowski.github.io/ki-glossar](https://franzjankowski.github.io/ki-glossar)
 
-**- ChatBots-Liste mit Recherche-Portalen** <BR>
-🔗 Link: [https://franzjankowski.github.io/chatbot-liste](https://franzjankowski.github.io/chatbot-liste)
+**- Ideen-Buffet - Was kann KI für mich tun?** <BR>
+🔗 Link: [https://franzjankowski.github.io/ki-ideen-buffet](https://franzjankowski.github.io/ki-ideen-buffet)
+
+**- Transparenzangaben** <BR>
+🔗 Link: [https://franzjankowski.github.io/ki-transparenz](https://franzjankowski.github.io/ki-transparenz)
 
 <p> <br><br><br> </p> 
 <p> <br><br><br> </p> 
