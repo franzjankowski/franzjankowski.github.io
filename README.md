@@ -30,13 +30,12 @@ ACHTUNG - Daten des KI-Themas in die GitHub-Organisation fjki-info verschoben
 
 | Ressource | Kurzbeschreibung | URL |
 |-----------|------------------|-----|
-| 🔍 Transparenz | KI-Tool-Offenlegung | [ki-transparenz](https://franzjankowski.github.io/ki-transparenz) |
-| 📖 Glossar | Begriffserklärungen | [ki-glossar](https://franzjankowski.github.io/ki-glossar) |
-| 🤖 ChatBot-Liste | Tool-Übersicht | [chatbot-liste](https://franzjankowski.github.io/chatbot-liste) |
-
+| 🔍 Transparenz | KI-Tool-Offenlegung | [ki-transparenz](https://fjki-info.github.io/transparenz) |
+| 📖 Glossar | Begriffserklärungen | [ki-glossar](https://fjki-info.github.io/glossar) |
+| 🤖 ChatBot-Liste | Tool-Übersicht | [chatbot-liste](https://fjki-info.github.io/tools) |
+| 🤖 Ideen-BUFFET | Anwendungsideen | [ideen.buffet](https://fjki-info.github.io/ideen-buffet) |
 ---
 
 **Erstellt mit:** Markdown, strukturiert für optimale Lesbarkeit und Navigation
-
 *Tags: #KI #Workshops #ChatBots #Transparenz #Glossar #AI #Bildung*
 
