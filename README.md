@@ -3,8 +3,9 @@
 
 Daten des KI-Themas in die GitHub-Organisation fjki-info verschoben: 
 🔗 [https://fjki-info.github.io/](https://fjki-info.github.io/)
+  
+  
 
-    
 > **Zentrale Anlaufstelle für Informationen zu KI-Workshops, Transparenz und verwendete Begriffe**
 
 ## In Veranstaltungen und Handouts verwendete Links
