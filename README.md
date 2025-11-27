@@ -13,17 +13,7 @@ Daten des KI-Themas in die GitHub-Organisation fjki-info verschoben:
 **- ChatBots-Liste mit Recherche-Portalen** <BR>
 🔗 Link: [https://fjki-info.github.io/tools](https://fjki-info.github.io/tools)
 
-**- Kleines KI-Glossar** <BR>
-🔗 Link: [https://fjki-info.github.io/glossar](https://fjki-info.github.io/glossar)
-
-**- Ideen-Buffet - Was kann KI für mich tun?** <BR>
-🔗 Link: [https://fjki-info.github.io/ideen-buffet](https://fjki-info.github.io/ideen-buffet)
-
-**- KI - Na und?** <BR>
-🔗 Link: [https://fjki-info.github.io/warum_ki](https://fjki-info.github.io/warum_ki)
-
-**- Transparenzangaben** <BR>
-🔗 Link: [https://fjki-info.github.io/transparenz](https://fjki-info.github.io/transparenz)
+**- und vieles mehr ** <BR>
 
 <p> <br><br><br> </p> 
 <p> <br><br><br> </p> 
