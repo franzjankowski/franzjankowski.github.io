@@ -20,8 +20,7 @@ Daten des KI-Themas in die GitHub-Organisation fjki-info verschoben:
 🔗 Link: [https://fjki-info.github.io/ideen-buffet](https://fjki-info.github.io/ideen-buffet)
 
 **- KI - Na und?** <BR>
-🔗 Link: [https://fjki-info.github.io/warum_ki](https://fjki-info.github.io/transparenz/warum_ki)
-
+🔗 Link: [https://fjki-info.github.io/warum_ki](https://fjki-info.github.io/warum_ki)
 
 **- Transparenzangaben** <BR>
 🔗 Link: [https://fjki-info.github.io/transparenz](https://fjki-info.github.io/transparenz)
