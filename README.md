@@ -36,7 +36,7 @@ Daten des KI-Themas in die GitHub-Organisation fjki-info verschoben:
 *Tags: #KI #Workshops #ChatBots #Transparenz #Glossar #AI #Bildung*
 
 
+
 ---
-# Rechtliches
-🔗 [Datenschutz](https://fjki-info.github.io/datenschutz)
-🔗 [Impressum](https://fjki-info.github.io/impressum)
+Die eigentlichen Inhalte wurden verschoben (s. oben). Es ist zur Zeit nur eine persönliche Übungsseite.
+[Datenschutz](https://fjki-info.github.io/datenschutz), [Impressum](https://fjki-info.github.io/impressum)
