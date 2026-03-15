@@ -35,7 +35,7 @@ Daten des KI-Themas in die GitHub-Organisation fjki-info verschoben:
   
   
 
-**Erstellt mit:** Markdown, strukturiert für optimale Lesbarkeit und Navigation
+**Erstellt mit:** Markdown, strukturiert für optimale Lesbarkeit und Navigation  
 *Tags: #KI #Workshops #ChatBots #Transparenz #Glossar #AI #Bildung*
 
 
