@@ -23,13 +23,13 @@ Daten des KI-Themas in die GitHub-Organisation fjki-info verschoben:
 
 | Ressource | Kurzbeschreibung | URL |
 |-----------|------------------|-----|
-| 🤖 Startseite | Ein Wegweiser | (Hauptseite) |(https://fjki-info.github.io/) |
-| 🤖 ChatBot-Liste | Tool-Übersicht | [tools] |(https://fjki-info.github.io/tools) |
-| 🤖 Risiken | Ein Auszug | [risiken] |(https://fjki-info.github.io/risiken) |
-| 🤖 Recherche & Lernen | Portale etc. | [recherche] |(https://fjki-info.github.io/recherche) 
-| 📖 Glossar | Begriffserklärungen | [glossar] |(https://fjki-info.github.io/glossar) |
-| 🤖 Ideen-Werkstatt | Anwendungsideen | [ideen-werkstatt] | (https://fjki-info.github.io/ideen-werkstatt) |
-| 🔍 Transparenz | KI-Tool-Offenlegung | [transparenz] |(https://fjki-info.github.io/transparenz) |
+| 🤖 Startseite | Ein Wegweiser | [(Hauptseite)](https://fjki-info.github.io/) |
+| 🤖 ChatBot-Liste | Tool-Übersicht | [tools](https://fjki-info.github.io/tools) |
+| 🤖 Risiken | Ein Auszug | [risiken](https://fjki-info.github.io/risiken) |
+| 🤖 Recherche & Lernen | Portale etc. | [recherche](https://fjki-info.github.io/recherche) 
+| 📖 Glossar | Begriffserklärungen | [glossar](https://fjki-info.github.io/glossar) |
+| 🤖 Ideen-Werkstatt | Anwendungsideen | [ideen-werkstatt](https://fjki-info.github.io/ideen-werkstatt) |
+| 🔍 Transparenz | KI-Tool-Offenlegung | [transparenz](https://fjki-info.github.io/transparenz) |
    ...  
    
   
