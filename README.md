@@ -1,7 +1,7 @@
 
 # KI-Workshop Ressourcen von Franz Jankowski
 
-Daten des KI-Themas in die GitHub-Organisation fjki-info verschoben: 
+Daten des KI-Themas verschoben, aktuelle Start-Website: 
 🔗 [https://fjki-info.github.io/](https://fjki-info.github.io/)
   
 
